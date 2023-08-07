@@ -1,11 +1,15 @@
+import Footer from './components/Footer';
+import Header from './components/Header';
+
 const App = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <div className="text-gray-900">
+        <Header />
+        <Footer />
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
