@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -13,16 +13,23 @@ const Header = () => {
               Sean Conroy
             </Link>
 
-            <nav className="invisible md:visible flex items-center justify-center ml-auto text-lg tracking-wide">
-              <Link
+            <nav className="invisible md:visible flex items-center gap-5 justify-center ml-auto text-lg tracking-wide font-light hover:text-gray-900">
+              <NavLink
                 to="/"
-                className="font-light hover:text-gray-900 border-b border-gray-900 mr-5"
+                className={({ isActive, isPending }) =>
+                  isPending ? '' : isActive ? 'border-b border-gray-900' : ''
+                }
               >
                 Work
-              </Link>
-              <Link to="/about" className="font-light hover:text-gray-900">
+              </NavLink>
+              <NavLink
+                to="/about"
+                className={({ isActive, isPending }) =>
+                  isPending ? '' : isActive ? 'border-b border-gray-900' : ''
+                }
+              >
                 About
-              </Link>
+              </NavLink>
             </nav>
           </div>
         </div>

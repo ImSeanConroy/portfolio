@@ -8,26 +8,34 @@ const AboutPages = () => {
         <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-24 text-lg">
           <div className="basis-1/2">
             <p className="text-lg font-light pb-8">Areas of Expertise</p>
-            <p className="text-2xl md:text-3xl font-semibold tracking-wide">
+            <p className="text-2xl md:text-3xl font-semibold tracking-wide pb-1">
               Full stack Development
             </p>
-            <p className="text-2xl md:text-3xl font-semibold tracking-wide">
+            <p className="text-2xl md:text-3xl font-semibold tracking-wide pb-1">
               Machine Learning
             </p>
-            <p className="text-2xl md:text-3xl font-semibold tracking-wide">DevOps</p>
-            <p className="text-2xl md:text-3xl font-semibold tracking-wide">Surfing</p>
-            <p className="text-2xl md:text-3xl font-semibold tracking-wide">Robotics</p>
+            <p className="text-2xl md:text-3xl font-semibold tracking-wide pb-1">
+              DevOps
+            </p>
+            <p className="text-2xl md:text-3xl font-semibold tracking-wide pb-1">
+              Surfing
+            </p>
+            <p className="text-2xl md:text-3xl font-semibold tracking-wide pb-1">
+              Robotics
+            </p>
           </div>
 
           <div className="basis-1/2">
             <p className="text-lg font-light leading-8 pb-24 md:pb-10">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Software engineer with experience developing and maintaining
+              large-scale projects. Proficient in multiple programming languages
+              and frameworks, including Python, JavaScript React. Quick learner
+              and passionate about working with new cutting-edge technology that
+              solves critical problems while allowing me to continue to learn
+              and develop my own skills. Currently experimenting with
+              electronics, Arduino, and 3D printing while building my own
+              electronics projects. Also, an avid learner and enjoy cooking,
+              surfing, climbing, and traveling.
             </p>
             <div className="flex flex-row gap-10 pb-14">
               <div>
@@ -41,9 +49,9 @@ const AboutPages = () => {
               </div>
             </div>
 
-            <button className="text-lg font-light text-white bg-slate-600 px-10 py-5">
+            {/* <button className="text-lg font-light text-white bg-slate-600 px-10 py-5">
               Let's Work Together
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
