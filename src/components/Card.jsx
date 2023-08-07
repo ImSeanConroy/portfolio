@@ -6,7 +6,7 @@ const Card = ({ title, image }) => {
           {title}
         </p>
       </div>
-      <img className="w-100" src={image} />
+      <img className="w-full" src={image} />
     </div>
   );
 };

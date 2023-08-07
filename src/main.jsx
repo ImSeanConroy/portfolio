@@ -9,11 +9,13 @@ import {
 import HomePage from './pages/HomePage.jsx';
 import App from './App.jsx';
 import './index.css';
+import AboutPage from './pages/AboutPage.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index={true} path="/" element={<HomePage />} />
+      <Route path="/about" element={<AboutPage />} />
     </Route>
   )
 );
