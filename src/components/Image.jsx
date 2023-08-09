@@ -1,6 +1,6 @@
 const Image = ({ image }) => {
   return (
-    <div className="w-full p-10">
+    <div className="w-full px-10 my-10">
       <img className="w-full" src={image} />
     </div>
   );

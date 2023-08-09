@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between gap-5">
 
         <div className="text-center w-full">
-          <p className="text-xl font-semibold tracking-wide">
+          <p className="text-xl md:text-2xl font-semibold tracking-wide">
             Sean Conroy © 2023
           </p>
         </div>
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center w-full">
-          <p className="text-xl font-semibold tracking-wide">
+          <p className="text-xl md:text-2xl font-semibold tracking-wide">
             imseanconroy@gmail.com
           </p>
         </div>

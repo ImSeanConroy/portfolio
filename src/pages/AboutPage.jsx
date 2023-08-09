@@ -3,7 +3,7 @@ import Image from '../components/Image';
 const AboutPages = () => {
   return (
     <>
-      <Image image="https://images.unsplash.com/photo-1689081777651-eef75a48e959?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80" />
+      <Image image="/about.png" />
       <div className="w-full px-10 pt-10 pb-20">
         <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-24 text-lg">
           <div className="basis-1/2">
