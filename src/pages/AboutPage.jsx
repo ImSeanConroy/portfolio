@@ -9,10 +9,10 @@ const AboutPages = () => {
           <div className="basis-1/2">
             <p className="text-lg font-light pb-8">Areas of Interest</p>
             <p className="text-2xl md:text-3xl font-semibold tracking-wide pb-1">
-              Full stack Development
+              Full Stack Development
             </p>
             <p className="text-2xl md:text-3xl font-semibold tracking-wide pb-1">
-              Machine Learning
+              Electronics & Robotics
             </p>
             <p className="text-2xl md:text-3xl font-semibold tracking-wide pb-1">
               DevOps
@@ -21,25 +21,28 @@ const AboutPages = () => {
               Surfing
             </p>
             <p className="text-2xl md:text-3xl font-semibold tracking-wide pb-1">
-              Robotics
+              Climbing
             </p>
           </div>
 
           <div className="basis-1/2">
             <p className="text-md sm:text-lg font-light leading-7 sm:leading-8 pb-10 md:pb-16">
-              Junior software engineer with experience developing and maintaining
-              large-scale projects. Proficient in multiple programming languages
-              and frameworks, including Python, JavaScript React. Quick learner
-              and passionate about working with new cutting-edge technology that
-              solves critical problems while allowing me to continue to learn
-              and develop my own skills. Currently experimenting with
-              electronics, Arduino, and 3D printing while building my own
-              electronics projects. Also, an avid learner and enjoy cooking,
-              surfing, climbing, and traveling.
+              Junior software engineer with experience developing and
+              maintaining large-scale projects. Proficient in multiple
+              programming languages and frameworks, including Python, JavaScript
+              React. Quick learner and passionate about working with new
+              cutting-edge technology that solves critical problems while
+              allowing me to continue to learn and develop my own skills.
+              Currently experimenting with electronics, Arduino, and 3D printing
+              while building my own electronics projects. Also, an avid learner
+              and enjoy cooking, surfing, climbing, and traveling.
             </p>
-
-            <a className="text-medium font-light text-white bg-gray-700 px-8 py-4" href='mailto:hello@imseanconroy.co.uk'>Reach Out.</a>
-
+            <a
+              className="text-medium font-light text-white bg-gray-700 px-8 py-4"
+              href="mailto:hello@imseanconroy.co.uk"
+            >
+              Reach Out.
+            </a>
           </div>
         </div>
       </div>

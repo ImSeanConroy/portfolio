@@ -12,7 +12,7 @@ const Card = ({ title, description, link, image }) => {
         </p>
       </div>
       <p className="z-10 px-10 py-12 absolute text-xl sm:text-3xl font-semibold tracking-wide opacity-0 group-hover:opacity-100 transition duration-150 ease-in-out"></p>
-      <div className="absolute w-full h-full group-hover:bg-slate-100 group-hover:opacity-100 transition duration-150 ease-in-out"></div>
+      <div className="absolute w-full h-full group-hover:bg-gray-100 group-hover:opacity-100 transition duration-150 ease-in-out"></div>
       <img className="w-full" src={ image } />
     </Link>
   );
