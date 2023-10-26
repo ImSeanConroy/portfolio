@@ -4,18 +4,23 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
   Route,
+  Navigate,
   RouterProvider,
 } from 'react-router-dom';
-import HomePage from './pages/HomePage.jsx';
 import App from './App.jsx';
 import './index.css';
+
+import HomePage from './pages/HomePage.jsx';
 import AboutPage from './pages/AboutPage.jsx';
+import ProjectPage from './pages/ProjectPage.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index={true} path="/" element={<HomePage />} />
       <Route path="/about" element={<AboutPage />} />
+      <Route path="/test" element={<ProjectPage title="test" />} />
+      <Route path="*" element={<Navigate to="/" />} />
     </Route>
   )
 );

@@ -3,13 +3,13 @@ import Card from '../components/Card';
 const HomePage = () => {
   return (
     <>
-      <div className="w-full px-10 pt-10 pb-16 md:pt-36 md:pb-24">
+      <div className="w-full px-5 md:px-10 pt-10 pb-16 md:pt-36 md:pb-24">
         <div className="w-100 md:w-3/5">
           <p className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-wide mb-4">
             Hi there.
           </p>
-          <p className="text-lg font-light leading-8">
-            I am a software engineer at Cisco based in Manchester, United
+          <p className="text-md sm:text-lg font-light leading-7 sm:leading-8">
+            I am a junior software engineer at Cisco based in Manchester, United
             Kingdom. I am currently completing a degree apprenticeship and will
             graduate with a BA(Hons) and three years of software development
             experience.
@@ -17,32 +17,40 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className="w-full p-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 grid-flow-row gap-2">
-          <Card
-            title="Coming Soon"
-            image="/project-1.png"
-          />
-          <Card
-            title="Coming Soon"
-            image="/project-2.png"
-          />
-          <Card
-            title="Coming Soon"
-            image="/project-3.png"
-          />
-          <Card
-            title="Coming Soon"
-            image="/project-4.png"
-          />
-          <Card
-            title="Coming Soon"
-            image="/project-5.png"
-          />
-          <Card
-            title="Coming Soon"
-            image="/project-6.png"
-          />
+      <div className="w-full px-5 md:px-10 py-10">
+        <div className="grid grid-cols-1 md:grid-rows-5 md:grid-cols-2 grid-flow-row gap-5 md:gap-8 lg:gap-10">
+          <div className="row-span-2">
+            <Card
+              title="Disturbance-Free Calling"
+              description="Minimising disturbances to enable productive remote work."
+              image="/project-1.png"
+              link="/test"
+            />
+          </div>
+          <div className="row-span-3">
+            <Card
+              title="Coming Soon"
+              description=""
+              image="/project-2.png"
+              link="/"
+            />
+          </div>
+          <div className="row-span-3">
+            <Card
+              title="Coming Soon"
+              description=""
+              image="/project-3.png"
+              link="/"
+            />
+          </div>
+          <div className="row-span-2">
+            <Card
+              title="Coming Soon"
+              description=""
+              image="/project-4.png"
+              link="/"
+            />
+          </div>
         </div>
       </div>
     </>

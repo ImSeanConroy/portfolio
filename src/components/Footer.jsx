@@ -3,9 +3,9 @@ import { BiLogoLinkedin } from 'react-icons/bi';
 
 const Footer = () => {
   return (
-    <div className="w-full px-10 py-16">
+    <div className="w-full px-5 md:px-10 py-20">
       <div className="flex flex-col md:flex-row justify-between gap-5">
-
+        
         <div className="text-center w-full">
           <p className="text-xl md:text-2xl font-semibold tracking-wide">
             Sean Conroy © 2023
@@ -31,7 +31,7 @@ const Footer = () => {
             imseanconroy@gmail.com
           </p>
         </div>
-
+      
       </div>
     </div>
   );

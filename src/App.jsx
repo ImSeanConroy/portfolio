@@ -4,7 +4,7 @@ import Header from './components/Header';
 
 const App = () => {
   return (
-    <div className="text-gray-900">
+    <div className="text-gray-900 mx-auto max-w-screen-2xl">
       <Header />
       <Outlet />
       <Footer />

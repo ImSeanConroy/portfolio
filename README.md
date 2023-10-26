@@ -1,6 +1,4 @@
-# seanconroy01.github.io
-
-[![pages-build-deployment](https://github.com/SeanConroy01/seanconroy01.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/SeanConroy01/seanconroy01.github.io/actions/workflows/pages/pages-build-deployment)
+# Porfolio
 
 This is my personal portfolio. It features some of my most recent projects, a bit about me and my contact information.
 
