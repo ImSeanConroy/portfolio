@@ -69,7 +69,7 @@ const ProjectPage = () => {
       <Image image="/about.png" />
 
       <div className="w-full px-5 md:px-10 py-10 md:py-16 text-2xl md:text-3xl lg:text-4xl">
-        <div className="flex flex-col md:flex-row justify-between content-center gap-12">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-14">
           <Link to="/" className="flex items-center">
             <BsChevronLeft />
             <p className=" font-semibold tracking-wide px-4">Coming Soon</p>

@@ -11,10 +11,10 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full px-5 md:px-10 py-9">
+    <header className="w-full px-5 md:px-10 pt-5 pb-9 md:py-9">
       <div className="mx-auto">
         <div className="border-gray-900 text-gray-900">
-          <div className="flex flex-row justify-between">
+          <div className="flex flex-row justify-between items-center">
             <Link
               to="/"
               className="text-2xl md:text-3xl font-semibold tracking-wide text-inherit"
@@ -54,11 +54,11 @@ const Header = () => {
 
       {isVisibile && (
         <div className="fixed w-screen h-screen bg-white z-10 top-0 left-0 no-scrollbar">
-          <button className="absolute top-10 right-5" onClick={toggle}>
+          <button className="absolute top-5 right-5" onClick={toggle}>
             <TfiClose className="text-3xl" />
           </button>
 
-          <nav className="p-32 flex flex-col gap-5 text-xl tracking-wide font-light">
+          <nav className="py-32 p-20 md:p-32 flex flex-col gap-5 text-xl tracking-wide font-light">
             <NavLink
               to="/"
               onClick={toggle}
