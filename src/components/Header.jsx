@@ -1,6 +1,15 @@
+import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { CiMenuBurger } from 'react-icons/ci';
+import { TfiClose } from 'react-icons/tfi';
 
 const Header = () => {
+  const [isVisibile, setIsVisible] = useState(false);
+
+  const toggle = () => {
+    setIsVisible(!isVisibile);
+  };
+
   return (
     <header className="w-full px-5 md:px-10 py-9">
       <div className="mx-auto">
@@ -13,27 +22,60 @@ const Header = () => {
               Sean Conroy
             </Link>
 
-            <nav className="invisible md:visible flex align-center gap-5 justify-center text-lg tracking-wide font-light">
-              <NavLink
-                to="/"
-                className={({ isActive, isPending }) =>
-                  isPending ? '' : isActive ? 'border-b border-gray-900' : ''
-                }
-              >
-                Work
-              </NavLink>
-              <NavLink
-                to="/about"
-                className={({ isActive, isPending }) =>
-                  isPending ? '' : isActive ? 'border-b border-gray-900' : ''
-                }
-              >
-                About
-              </NavLink>
-            </nav>
+            <div className="hidden md:block">
+              <nav className="flex align-center gap-5 justify-center text-lg tracking-wide font-light">
+                <NavLink
+                  to="/"
+                  className={({ isActive, isPending }) =>
+                    isPending ? '' : isActive ? 'border-b border-gray-900' : ''
+                  }
+                >
+                  Work
+                </NavLink>
+                <NavLink
+                  to="/about"
+                  className={({ isActive, isPending }) =>
+                    isPending ? '' : isActive ? 'border-b border-gray-900' : ''
+                  }
+                >
+                  About
+                </NavLink>
+              </nav>
+            </div>
+
+            <div className="block md:hidden">
+              <button onClick={toggle}>
+                <CiMenuBurger className="text-4xl" />
+              </button>
+            </div>
           </div>
         </div>
       </div>
+
+      {isVisibile && (
+        <div className="fixed w-screen h-screen bg-white z-10 top-0 left-0 no-scrollbar">
+          <button className="absolute top-10 right-5" onClick={toggle}>
+            <TfiClose className="text-3xl" />
+          </button>
+
+          <nav className="p-32 flex flex-col gap-5 text-xl tracking-wide font-light">
+            <NavLink
+              to="/"
+              onClick={toggle}
+              className="border-b border-gray-900"
+            >
+              Work
+            </NavLink>
+            <NavLink
+              to="/about"
+              onClick={toggle}
+              className="border-b border-gray-900"
+            >
+              About
+            </NavLink>
+          </nav>
+        </div>
+      )}
     </header>
   );
 };
