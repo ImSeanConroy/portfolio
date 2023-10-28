@@ -9,10 +9,7 @@ const HomePage = () => {
             Hi there.
           </p>
           <p className="text-md sm:text-lg font-light leading-7 sm:leading-8">
-            I am a junior software engineer at Cisco based in Manchester, United
-            Kingdom. I am currently completing a degree apprenticeship and will
-            graduate with a BA(Hons) and three years of software development
-            experience.
+            I am a Junior Software Engineer at Cisco, transforming complex problems into seamless solutions with a touch of creativity.
           </p>
         </div>
       </div>
