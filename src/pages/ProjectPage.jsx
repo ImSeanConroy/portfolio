@@ -1,12 +1,10 @@
-import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
-import { Link } from 'react-router-dom';
-
 import Heading from '../components/Heading';
 import SubHeading from '../components/SubHeading';
 import BodyText from '../components/BodyText';
 import BodyImage from '../components/BodyImage';
 import Image from '../components/Image';
 import SplitImage from '../components/SplitImage';
+import ProjectLinks from '../components/ProjectLinks';
 
 const ProjectPage = () => {
   return (
@@ -31,7 +29,7 @@ const ProjectPage = () => {
       </div>
 
       <Image image="/about.png" />
-      <SplitImage imageOne="/test.png" imageTwo="/test.png" />
+      <SplitImage imageOne="/disturbance-free-calling.png" imageTwo="/disturbance-free-calling.png" />
 
       <div className="max-w-3xl mx-auto">
         <div className="px-5 md:px-10 mt-12 md:mt-20 mb-16 md:mb-28">
@@ -65,22 +63,9 @@ const ProjectPage = () => {
         </div>
       </div>
 
-      <SplitImage imageOne="/test.png" imageTwo="/test.png" />
+      <SplitImage imageOne="/disturbance-free-calling.png" imageTwo="/disturbance-free-calling.png" />
       <Image image="/about.png" />
-
-      <div className="w-full px-5 md:px-10 my-16 md:my-24 text-3xl md:text-3xl xl:text-4xl">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-14">
-          <Link to="/" className="flex items-center">
-            <BsChevronLeft />
-            <p className=" font-semibold tracking-wide px-4">Disturbance-Free Calling</p>
-          </Link>
-
-          <Link to="/" className="flex items-center">
-            <p className="md:text-right font-semibold tracking-wide px-4">Disturbance-Free Calling</p>
-            <BsChevronRight />
-          </Link>
-        </div>
-      </div>
+      <ProjectLinks textOne="Coming Soon" textTwo="Coming Soon" LinkOne="/" LinkTwo="/" />
     </>
   );
 };

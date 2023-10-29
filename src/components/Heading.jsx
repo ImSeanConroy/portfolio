@@ -1,8 +1,8 @@
 const Heading = ({ text }) => {
   return (
-    <p className="text-4xl lg:text-5xl font-semibold tracking-wide leading-tight mb-5">
+    <h1 className="text-4xl lg:text-5xl font-semibold tracking-wide leading-tight mb-5">
       { text }
-    </p>
+    </h1>
   )
 }
 
