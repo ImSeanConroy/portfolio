@@ -16,7 +16,7 @@ const Card = ({ title, description, link, image }) => {
         <div className="absolute w-full h-full group-hover:bg-gray-100 group-hover:opacity-100 transition duration-150 ease-in-out"></div>
       </div>
 
-      <img className="w-full" src={ image } />
+      <img className="w-full" src={ image }  alt='View project details' />
 
       <div className='pt-6 pb-10 sm:hidden'>
         <p className="text-2xl font-semibold tracking-wide pb-3">

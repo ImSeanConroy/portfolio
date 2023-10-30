@@ -29,7 +29,7 @@ const ProjectPage = () => {
       </div>
 
       <Image image="/about.png" />
-      <SplitImage imageOne="/disturbance-free-calling.png" imageTwo="/disturbance-free-calling.png" />
+      <SplitImage imageOne="/test.png" imageTwo="/test.png" />
 
       <div className="max-w-3xl mx-auto">
         <div className="px-5 md:px-10 mt-12 md:mt-20 mb-16 md:mb-28">
@@ -63,7 +63,7 @@ const ProjectPage = () => {
         </div>
       </div>
 
-      <SplitImage imageOne="/disturbance-free-calling.png" imageTwo="/disturbance-free-calling.png" />
+      <SplitImage imageOne="/test.png" imageTwo="/test.pngg" />
       <Image image="/about.png" />
       <ProjectLinks textOne="Coming Soon" textTwo="Coming Soon" LinkOne="/" LinkTwo="/" />
     </>
