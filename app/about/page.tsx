@@ -1,12 +1,12 @@
 import SubHeading from '../components/SubHeading';
 import BodyText from '../components/BodyText';
 import BodyImage from '../components/BodyImage';
-import Image from '../components/Image';
+import LargeImage from '../components/LargeImage';
 
 const AboutPages = () => {
   return (
     <>
-      <Image image="/about.png" />
+      <LargeImage image="/about.png" />
       <div className="max-w-3xl mx-auto">
         <div className="px-5 md:px-10 mt-12 md:mt-20 mb-16 md:mb-28">
           <SubHeading text="Transforming complex problems into seamless solutions with a touch of creativity." />

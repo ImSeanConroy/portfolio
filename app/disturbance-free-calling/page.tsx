@@ -2,14 +2,14 @@ import Heading from '../components/Heading';
 import SubHeading from '../components/SubHeading';
 import BodyText from '../components/BodyText';
 import BodyImage from '../components/BodyImage';
-import Image from '../components/Image';
+import LargeImage from '../components/LargeImage';
 import SplitImage from '../components/SplitImage';
 import ProjectLinks from '../components/ProjectLinks';
 
 const ProjectPage = () => {
   return (
     <>
-      <Image image="/about.png" />
+      <LargeImage image="/about.png" />
 
       <div className="max-w-3xl mx-auto">
         <div className="px-5 md:px-10 mt-12 md:mt-20 mb-16 md:mb-28">
@@ -19,7 +19,7 @@ const ProjectPage = () => {
         </div>
       </div>
 
-      <Image image="/about.png" />
+      <LargeImage image="/about.png" />
 
       <div className="max-w-3xl mx-auto">
         <div className="px-5 md:px-10 mt-12 md:mt-20 mb-16 md:mb-28">
@@ -28,7 +28,7 @@ const ProjectPage = () => {
         </div>
       </div>
 
-      <Image image="/about.png" />
+      <LargeImage image="/about.png" />
       <SplitImage imageOne="/test.png" imageTwo="/test.png" />
 
       <div className="max-w-3xl mx-auto">
@@ -50,7 +50,7 @@ const ProjectPage = () => {
         </div>
       </div>
 
-      <Image image="/about.png" />
+      <LargeImage image="/about.png" />
 
       <div className="max-w-3xl mx-auto">
         <div className="px-5 md:px-10 mt-12 md:mt-20 mb-16 md:mb-28">
@@ -63,8 +63,8 @@ const ProjectPage = () => {
         </div>
       </div>
 
-      <SplitImage imageOne="/test.png" imageTwo="/test.pngg" />
-      <Image image="/about.png" />
+      <SplitImage imageOne="/test.png" imageTwo="/test.png" />
+      <LargeImage image="/about.png" />
       <ProjectLinks textOne="Coming Soon" textTwo="Coming Soon" LinkOne="/" LinkTwo="/" />
     </>
   );
