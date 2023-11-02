@@ -1,4 +1,4 @@
-const Image = ({ image }) => {
+const LargeImage = ({ image }) => {
   return (
     <>
       <div className="w-full px-5 md:px-10 my-2 md:mb-10">
@@ -8,4 +8,4 @@ const Image = ({ image }) => {
   );
 };
 
-export default Image;
+export default LargeImage;

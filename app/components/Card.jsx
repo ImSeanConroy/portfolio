@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom';
+import Link from "next/link";
 
 const Card = ({ title, description, link, image }) => {
   return (
-    <Link to={ link } className="group bg-gray-100 cursor-pointer relative h-full">
+    <Link href={ link } className="group bg-gray-100 cursor-pointer relative h-full">
       <div className='hidden sm:block'>
         <div className="z-10 px-5 md:px-10 py-12 absolute opacity-0 group-hover:opacity-100 transition duration-150 ease-in-out">
           <p className="text-4xl font-semibold tracking-wide pb-3">
