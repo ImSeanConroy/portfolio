@@ -46,10 +46,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
-        <Header />
-        {children}
-        <Footer />
+      <body className={"text-gray-900 mx-auto max-w-screen-xl " + roboto.className}>
+          <Header />
+          {children}
+          <Footer />
       </body>
     </html>
   )
