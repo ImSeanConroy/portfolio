@@ -1,3 +1,5 @@
+import type { Metadata } from 'next'
+
 import Heading from '../components/Heading';
 import SubHeading from '../components/SubHeading';
 import BodyText from '../components/BodyText';
@@ -5,6 +7,15 @@ import BodyImage from '../components/BodyImage';
 import LargeImage from '../components/LargeImage';
 import SplitImage from '../components/SplitImage';
 import ProjectLinks from '../components/ProjectLinks';
+import PageMetadata from '../components/PageMetadata'
+
+export const metadata: Metadata = PageMetadata({
+  title: 'Disturbance-Free Calling - Sean Conroy',
+  description: 'Minimising disturbances to enable productive remote work. Discover More.',
+  keywords: ["Disturbance-Free Calling", "Webex", "Minimising disturbances"],
+  link: 'https://imseanconroy.co.uk/disturbance-free-calling',
+  image: 'https://www.imseanconroy.co.uk/socials.png'
+})
 
 const ProjectPage = () => {
   return (
@@ -14,7 +25,7 @@ const ProjectPage = () => {
       <div className="max-w-3xl mx-auto">
         <div className="px-5 md:px-10 mt-12 md:mt-20 mb-16 md:mb-28">
           <Heading text="Disturbance-Free Calling" />
-          <SubHeading text="Minimising disturbances to enable productive remote work." />
+          <SubHeading main={true} text="Minimising disturbances to enable productive remote work." />
           <BodyText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus." />
         </div>
       </div>
