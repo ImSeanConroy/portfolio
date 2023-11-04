@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Card = ({ title, description, link, image }) => {
+const Card = ({ title, description, link, image }: { title: string, description: string, link: string, image: string }) => {
   return (
     <Link href={ link } className="group bg-gray-100 cursor-pointer relative h-full">
       <div className='hidden sm:block'>

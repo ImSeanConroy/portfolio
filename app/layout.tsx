@@ -15,28 +15,41 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://imseanconroy.co.uk'),
   title: 'Sean Conroy: Software Engineer at Cisco | Portfolio',
   description: "Junior Software Engineer at Cisco, transforming complex problems into seamless solutions with a touch of creativity. Explore Sean's portfolio.",
-  keywords: ["ImSeanConroy"],
+  keywords: ["ImSeanConroy", "Software Engineer", "Portfolio", "Web Development"],
   authors: [
     { name: 'Sean Conroy', url: 'https://www.imseanconroy.co.uk' }
   ],
   alternates: {
-    canonical: "/",
+    canonical: "https://imseanconroy.co.uk",
   },
   openGraph: {
     type: "website",
     url: 'https://www.imseanconroy.co.uk',
     title: 'Sean Conroy: Software Engineer at Cisco | Portfolio',
     description: "Junior Software Engineer at Cisco, transforming complex problems into seamless solutions with a touch of creativity. Explore Sean's portfolio.",
-    images: ["/about.png"],
+    images: [
+      {
+        url: 'https://www.imseanconroy.co.uk/socials.png',
+        width: 1200,
+        height: 630,
+        alt: 'Sean Conroy Portfolio Image'
+      }
+    ],
     locale: "en_GB",
   },
   twitter: {
     card: "summary_large_image",
+    site: "@ImSeanConroy",
     title: "Sean Conroy: Software Engineer at Cisco | Portfolio",
     description: "Junior Software Engineer at Cisco, transforming complex problems into seamless solutions with a touch of creativity. Explore Sean's portfolio.",
     creator: "@ImSeanConroy",
-    images: ["/about.png"],
-  },
+    images: [
+      {
+        url: 'https://www.imseanconroy.co.uk/socials.png',
+        alt: 'Sean Conroy Portfolio Image'
+      }
+    ],
+  }
 }
 
 export default function RootLayout({

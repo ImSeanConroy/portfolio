@@ -1,7 +1,7 @@
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 import Link from "next/link";
 
-const ProjectLinks = ({ textOne, textTwo, LinkOne, LinkTwo }) => {
+const ProjectLinks = ({ textOne, textTwo, LinkOne, LinkTwo }: { textOne: string, textTwo: string, LinkOne: string, LinkTwo: string }) => {
   return (
     <div>
       <div className="w-full px-5 md:px-10 my-16 md:my-24 text-3xl md:text-3xl xl:text-4xl">

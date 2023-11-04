@@ -1,4 +1,4 @@
-const LargeImage = ({ image }) => {
+const LargeImage = ({ image }: { image: string }) => {
   return (
     <>
       <div className="w-full px-5 md:px-10 my-2 md:mb-10">

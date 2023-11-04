@@ -1,4 +1,4 @@
-const BodyText = ({ text }) => {
+const BodyText = ({ text }: { text: string }) => {
   return (
     <p className="text-medium sm:text-medium sm:text-lg font-light leading-7 sm:leading-8 mb-12">
       { text }
