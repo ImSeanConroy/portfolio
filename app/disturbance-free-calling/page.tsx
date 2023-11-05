@@ -14,14 +14,13 @@ export const metadata: Metadata = PageMetadata({
   description: 'Minimising disturbances to enable productive remote work. Discover More.',
   keywords: ["Disturbance-Free Calling", "Webex", "Minimising disturbances"],
   link: 'https://imseanconroy.co.uk/disturbance-free-calling',
-  image: 'https://www.imseanconroy.co.uk/socials.png'
+  image: 'https://www.imseanconroy.co.uk/other/socials.png'
 })
 
 const ProjectPage = () => {
   return (
     <>
-      <LargeImage image="/about.png" />
-
+      <LargeImage image="/about/main.png" />
       <div className="max-w-3xl mx-auto">
         <div className="px-5 md:px-10 mt-12 md:mt-20 mb-16 md:mb-28">
           <Heading text="Disturbance-Free Calling" />
@@ -29,53 +28,46 @@ const ProjectPage = () => {
           <BodyText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus." />
         </div>
       </div>
-
-      <LargeImage image="/about.png" />
-
+      <LargeImage image="/about/main.png" />
       <div className="max-w-3xl mx-auto">
         <div className="px-5 md:px-10 mt-12 md:mt-20 mb-16 md:mb-28">
           <SubHeading text="Minimising disturbances to enable productive remote work." />
           <BodyText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus." />
         </div>
       </div>
-
-      <LargeImage image="/about.png" />
-      <SplitImage imageOne="/test.png" imageTwo="/test.png" />
-
+      <LargeImage image="/about/main.png" />
+      <SplitImage imageOne="/disturbance-free-calling/test.png" imageTwo="/disturbance-free-calling/test.png" />
       <div className="max-w-3xl mx-auto">
         <div className="px-5 md:px-10 mt-12 md:mt-20 mb-16 md:mb-28">
           <SubHeading text="Every detail, meticulously considered." />
           <BodyText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus." />
-          <BodyImage image="/about.png" />
+          <BodyImage image="/about/main.png" />
           <SubHeading text="Fast, efficient, and precise." />
           <BodyText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus." />
-          <BodyImage image="/about.png" />
-          <BodyImage image="/about.png" />
+          <BodyImage image="/about/main.png" />
+          <BodyImage image="/about/main.png" />
           <BodyText
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. "
           />
           <SubHeading text="The art and precision of assembly." />
           <BodyText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus." />
-          <BodyImage image="/about.png" />
+          <BodyImage image="/about/main.png" />
           <BodyText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus." />
         </div>
       </div>
-
-      <LargeImage image="/about.png" />
-
+      <LargeImage image="/about/main.png" />
       <div className="max-w-3xl mx-auto">
         <div className="px-5 md:px-10 mt-12 md:mt-20 mb-16 md:mb-28">
           <SubHeading text="Where concepts come to life." />
           <BodyText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus." />
-          <BodyImage image="/about.png" />
+          <BodyImage image="/about/main.png" />
           <BodyText
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. "
           />
         </div>
       </div>
-
-      <SplitImage imageOne="/test.png" imageTwo="/test.png" />
-      <LargeImage image="/about.png" />
+      <SplitImage imageOne="/disturbance-free-calling/test.png" imageTwo="/disturbance-free-calling/test.png" />
+      <LargeImage image="/about/main.png" />
       <ProjectLinks textOne="Coming Soon" textTwo="Coming Soon" LinkOne="/" LinkTwo="/" />
     </>
   );

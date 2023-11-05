@@ -17,7 +17,7 @@ export const metadata: Metadata = PageMetadata({
   description: "Transforming complex problems into seamless solutions with a touch of creativity. Explore portfolio to learm more.",
   keywords: ["ImSeanConroy", "Software Engineer", "Portfolio", "Web Development", "Cisco"],
   link: 'https://imseanconroy.co.uk',
-  image: 'https://www.imseanconroy.co.uk/socials.png'
+  image: 'https://www.imseanconroy.co.uk/other/socials.png'
 })
 
 export default function RootLayout({
