@@ -1,4 +1,4 @@
-# Porfolio
+# Portfolio
 
 This is my personal portfolio. It features some of my most recent projects, a bit about me and my contact information.
 
@@ -6,9 +6,9 @@ This is my personal portfolio. It features some of my most recent projects, a bi
   <p>
     <a href="https://www.imseanconroy.co.uk">View Portfolio</a>
     ·
-    <a href="https://github.com/SeanConroy01/seanconroy01.github.io/issues">Report Bug</a>
+    <a href="https://github.com/ImSeanConroy/portfolio/issues">Report Bug</a>
     ·
-    <a href="https://github.com/SeanConroy01/seanconroy01.github.io/issues">Request Feature</a>
+    <a href="https://github.com/ImSeanConroy/portfolio/issues">Request Feature</a>
   </p>
 </div>
 
@@ -18,7 +18,7 @@ This project is Distributed under the MIT License - see the [LICENSE.md](LICENSE
 
 ## Support
 
-If you are having problems, please let me know by [raising a new issue](https://github.com/SeanConroy01/seanconroy01.github.io/issues/new/choose).
+If you are having problems, please let me know by [raising a new issue](https://github.com/ImSeanConroy/portfolio/issues/new/choose).
 
 ## Authors
 
@@ -26,7 +26,7 @@ Contributors names and contact info
 
 Sean Conroy - [@ImSeanConroy](https://twitter.com/ImSeanConroy) - [hello@imseanconroy.com](hello@imseanconroy.com)
 
-Project Link: [https://github.com/SeanConroy01/seanconroy01.github.io](https://github.com/SeanConroy01/seanconroy01.github.io)
+Project Link: [https://github.com/ImSeanConroy/portfolio/](https://github.com/ImSeanConroy/portfolio/)
 
 ## Acknowledgments
 

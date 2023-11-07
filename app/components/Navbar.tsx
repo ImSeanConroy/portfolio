@@ -6,7 +6,7 @@ import NavLink from './NavLink'
 import { CiMenuBurger } from 'react-icons/ci';
 import { TfiClose } from 'react-icons/tfi';
 
-const Header = () => {
+const Navbar = () => {
   const [isVisibile, setIsVisible] = useState<boolean>(false);
 
   const toggle = () => {
@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <header className="w-full px-5 md:px-10 pt-5 pb-9 md:py-9">
       <div className="mx-auto">
-        <div className="border-gray-900 text-gray-900">
+        <div className="border-gray-900">
           <div className="flex flex-row justify-between items-center">
             <Link
               href="/"
@@ -79,4 +79,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;

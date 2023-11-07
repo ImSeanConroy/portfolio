@@ -2,7 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
 
-import Header from './components/Header';
+import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import PageMetadata from './components/PageMetadata'
 
@@ -27,10 +27,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={"text-gray-900 mx-auto max-w-screen-xl " + roboto.className}>
-          <Header />
+      <body className={roboto.className}>
+        <main className='text-gray-900 mx-auto max-w-screen-xl'>
+          <Navbar />
           {children}
           <Footer />
+        </main>
       </body>
     </html>
   )

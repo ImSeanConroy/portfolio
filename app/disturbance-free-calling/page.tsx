@@ -1,10 +1,5 @@
 import type { Metadata } from 'next'
 
-import Heading from '../components/Heading';
-import SubHeading from '../components/SubHeading';
-import BodyText from '../components/BodyText';
-import BodyImage from '../components/BodyImage';
-import LargeImage from '../components/LargeImage';
 import SplitImage from '../components/SplitImage';
 import ProjectLinks from '../components/ProjectLinks';
 import PageMetadata from '../components/PageMetadata'
@@ -20,54 +15,48 @@ export const metadata: Metadata = PageMetadata({
 const ProjectPage = () => {
   return (
     <>
-      <LargeImage image="/about/main.png" />
-      <div className="max-w-3xl mx-auto">
-        <div className="px-5 md:px-10 mt-12 md:mt-20 mb-16 md:mb-28">
-          <Heading text="Disturbance-Free Calling" />
-          <SubHeading main={true} text="Minimising disturbances to enable productive remote work." />
-          <BodyText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus." />
-        </div>
+      <img className="large-image" src="/about/main.png" alt="" />
+      <div className="body-section">
+        <p className='title'>Disturbance-Free Calling</p>
+        <h1 className='subtitle'>Minimising disturbances to enable productive remote work.</h1>
+        <p className='paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus.</p>
       </div>
-      <LargeImage image="/about/main.png" />
-      <div className="max-w-3xl mx-auto">
-        <div className="px-5 md:px-10 mt-12 md:mt-20 mb-16 md:mb-28">
-          <SubHeading text="Minimising disturbances to enable productive remote work." />
-          <BodyText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus." />
-        </div>
+
+      <img className="large-image" src="/about/main.png" alt="" />
+      <div className="body-section">
+        <p className='subtitle'>Minimising disturbances to enable productive remote work.</p>
+        <p className='paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus.</p>
       </div>
-      <LargeImage image="/about/main.png" />
+
+      <img className="large-image" src="/about/main.png" alt="" />
       <SplitImage imageOne="/disturbance-free-calling/test.png" imageTwo="/disturbance-free-calling/test.png" />
-      <div className="max-w-3xl mx-auto">
-        <div className="px-5 md:px-10 mt-12 md:mt-20 mb-16 md:mb-28">
-          <SubHeading text="Every detail, meticulously considered." />
-          <BodyText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus." />
-          <BodyImage image="/about/main.png" />
-          <SubHeading text="Fast, efficient, and precise." />
-          <BodyText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus." />
-          <BodyImage image="/about/main.png" />
-          <BodyImage image="/about/main.png" />
-          <BodyText
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. "
-          />
-          <SubHeading text="The art and precision of assembly." />
-          <BodyText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus." />
-          <BodyImage image="/about/main.png" />
-          <BodyText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus." />
-        </div>
+
+      <div className="body-section">
+        <p className='subtitle'>Every detail, meticulously considered.</p>
+        <p className='paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus.</p>
+        <img className="body-image" src="/about/main.png" alt="" />
+        <p className='subtitle'>Fast, efficient, and precise.</p>
+        <p className='paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus.</p>
+        <img className="body-image" src="/about/main.png" alt="" />
+        <img className="body-image" src="/about/main.png" alt="" />
+        <p className='paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est.</p>
+        <p className='subtitle'>The art and precision of assembly.</p>
+        <p className='paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus.</p>
+        <img className="body-image" src="/about/main.png" alt="" />
+        <p className='paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus.</p>
       </div>
-      <LargeImage image="/about/main.png" />
-      <div className="max-w-3xl mx-auto">
-        <div className="px-5 md:px-10 mt-12 md:mt-20 mb-16 md:mb-28">
-          <SubHeading text="Where concepts come to life." />
-          <BodyText text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus." />
-          <BodyImage image="/about/main.png" />
-          <BodyText
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. "
-          />
-        </div>
+
+      <img className="large-image" src="/about/main.png" alt="" />
+
+      <div className="body-section">
+        <p className='subtitle'>Where concepts come to life.</p>
+        <p className='paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est. Curabitur vehicula, nulla ut varius ornare, ante metus facilisis ante, a aliquet elit diam nec massa. Sed eget lacus et nulla pellentesque mollis. Morbi sagittis, quam in placerat egestas, enim erat ultricies dolor, sit amet cursus nunc turpis vel lacus.</p>
+        <img className="body-image" src="/about/main.png" alt="" />
+        <p className='paragraph'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Donec in efficitur ipsum, in dignissim lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi lacinia lacus ac neque feugiat, nec faucibus erat ultricies. Sed varius, risus accumsan facilisis ullamcorper, tortor quam tincidunt urna, quis porta sapien sapien id est.</p>
       </div>
+
       <SplitImage imageOne="/disturbance-free-calling/test.png" imageTwo="/disturbance-free-calling/test.png" />
-      <LargeImage image="/about/main.png" />
+      <img className="large-image" src="/about/main.png" alt="" />
       <ProjectLinks textOne="Coming Soon" textTwo="Coming Soon" LinkOne="/" LinkTwo="/" />
     </>
   );
