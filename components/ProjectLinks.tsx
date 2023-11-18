@@ -1,7 +1,17 @@
-import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 import Link from "next/link";
+import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
-const ProjectLinks = ({ textOne, textTwo, LinkOne, LinkTwo }: { textOne: string, textTwo: string, LinkOne: string, LinkTwo: string }) => {
+const ProjectLinks = ({
+  textOne,
+  textTwo,
+  LinkOne,
+  LinkTwo,
+}: {
+  textOne: string;
+  textTwo: string;
+  LinkOne: string;
+  LinkTwo: string;
+}) => {
   return (
     <div>
       <div className="w-full px-5 md:px-10 my-16 md:my-24 text-3xl md:text-3xl xl:text-4xl">
@@ -12,13 +22,15 @@ const ProjectLinks = ({ textOne, textTwo, LinkOne, LinkTwo }: { textOne: string,
           </Link>
 
           <Link href={LinkTwo} className="flex items-center">
-            <p className="md:text-right font-semibold tracking-wide px-4">{textTwo}</p>
+            <p className="md:text-right font-semibold tracking-wide px-4">
+              {textTwo}
+            </p>
             <BsChevronRight />
           </Link>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectLinks
+export default ProjectLinks;

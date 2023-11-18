@@ -6,15 +6,19 @@ interface Metadata {
   image: string;
 }
 
-const PageMetadata = ({ title, description, keywords, link, image }: Metadata) => {
+const PageMetadata = ({
+  title,
+  description,
+  keywords,
+  link,
+  image,
+}: Metadata) => {
   return {
     metadataBase: new URL(link),
     title: title,
     description: description,
     keywords: keywords,
-    authors: [
-      { name: 'Sean Conroy', url: 'https://www.imseanconroy.co.uk' }
-    ],
+    authors: [{ name: "Sean Conroy", url: "https://www.imseanconroy.co.uk" }],
     alternates: {
       canonical: link,
     },
@@ -28,8 +32,8 @@ const PageMetadata = ({ title, description, keywords, link, image }: Metadata) =
           url: image,
           width: 1200,
           height: 630,
-          alt: 'Sean Conroy Portfolio Image'
-        }
+          alt: "Sean Conroy Portfolio Image",
+        },
       ],
       locale: "en_GB",
     },
@@ -42,11 +46,11 @@ const PageMetadata = ({ title, description, keywords, link, image }: Metadata) =
       images: [
         {
           url: image,
-          alt: 'Sean Conroy Portfolio Image'
-        }
+          alt: "Sean Conroy Portfolio Image",
+        },
       ],
-    }
+    },
   };
-}
+};
 
 export default PageMetadata;

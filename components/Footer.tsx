@@ -1,5 +1,9 @@
-import { AiOutlineInstagram, AiOutlineTwitter, AiOutlineGithub } from 'react-icons/ai';
-import { BiLogoLinkedin } from 'react-icons/bi';
+import {
+  AiOutlineInstagram,
+  AiOutlineTwitter,
+  AiOutlineGithub,
+} from "react-icons/ai";
+import { BiLogoLinkedin } from "react-icons/bi";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -7,7 +11,6 @@ const Footer = () => {
   return (
     <div className="w-full px-5 md:px-10 pt-10 pb-20 md:pt-20">
       <div className="flex flex-col md:flex-row justify-between gap-5">
-        
         <div className="text-center w-full">
           <p className="text-xl md:text-2xl font-semibold tracking-wide">
             Sean Conroy © {currentYear}
@@ -36,7 +39,6 @@ const Footer = () => {
             imseanconroy@gmail.com
           </p>
         </div>
-      
       </div>
     </div>
   );

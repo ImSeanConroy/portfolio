@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 
-import PageMetadata from '../components/PageMetadata'
+import { PageMetadata } from "@/components"
 
 export const metadata: Metadata = PageMetadata({
   title: 'Junior Software Engineer at Cisco - Sean Conroy',
   description: "Transforming complex problems into seamless solutions with a touch of creativity. Explore portfolio to learm more.",
   keywords: ["ImSeanConroy", "Software Engineer", "Portfolio", "Web Development", "Cisco"],
-  link: 'https://imseanconroy.co.uk/about',
+  link: 'https://www.imseanconroy.co.uk/about',
   image: 'https://www.imseanconroy.co.uk/other/socials.png'
 })
 

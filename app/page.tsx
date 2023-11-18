@@ -1,4 +1,21 @@
-import Card from './components/Card';
+import type { Metadata } from "next";
+
+import { Card, PageMetadata } from "@/components"
+
+export const metadata: Metadata = PageMetadata({
+  title: "Junior Software Engineer at Cisco - Sean Conroy",
+  description:
+    "Transforming complex problems into seamless solutions with a touch of creativity. Explore portfolio to learm more.",
+  keywords: [
+    "ImSeanConroy",
+    "Software Engineer",
+    "Portfolio",
+    "Web Development",
+    "Cisco",
+  ],
+  link: "https://www.imseanconroy.co.uk",
+  image: "https://www.imseanconroy.co.uk/other/socials.png",
+});
 
 const HomePage = () => {
   return (
@@ -9,7 +26,8 @@ const HomePage = () => {
             Hi there.
           </h1>
           <p className="text-md sm:text-lg font-light leading-7 sm:leading-8">
-            I am a Junior Software Engineer at Cisco, transforming complex problems into seamless solutions with a touch of creativity.
+            I am a Junior Software Engineer at Cisco, transforming complex
+            problems into seamless solutions with a touch of creativity.
           </p>
         </div>
       </div>

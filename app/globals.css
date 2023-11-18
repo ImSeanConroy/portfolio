@@ -33,4 +33,8 @@
   .large-image {
     @apply w-full px-5 md:px-10 my-2 md:mb-10
   }
+
+  .nav-link {
+    @apply border-b border-gray-900 dark:border-neutral-100
+  }
 }

@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { ReactNode } from 'react';
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { ReactNode } from "react";
 
 interface NavLinkProps {
   href: string;
@@ -11,7 +11,7 @@ interface NavLinkProps {
 
 const NavLink = ({ href, exact, children, ...props }: NavLinkProps) => {
   const pathname = usePathname();
-  const active = ' border-b border-gray-900';
+  const active = " nav-link";
   const isActive = exact ? pathname === href : pathname.startsWith(href);
 
   if (isActive) {
@@ -23,6 +23,6 @@ const NavLink = ({ href, exact, children, ...props }: NavLinkProps) => {
       {children}
     </Link>
   );
-}
+};
 
 export default NavLink;
