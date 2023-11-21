@@ -5,7 +5,7 @@ import Link from "next/link";
 import { CiMenuBurger } from "react-icons/ci";
 import { TfiClose } from "react-icons/tfi";
 
-import { NavLink } from ".";
+import { NavLink, ThemeToggle } from ".";
 
 const Navbar = () => {
   const [isVisibile, setIsVisible] = useState<boolean>(false);
@@ -34,6 +34,7 @@ const Navbar = () => {
                 <NavLink exact={false} href="/about">
                   About
                 </NavLink>
+                <ThemeToggle />
               </nav>
             </div>
 
@@ -59,6 +60,7 @@ const Navbar = () => {
             <Link href="/about" onClick={toggle} className="nav-link">
               About
             </Link>
+            <ThemeToggle />
           </nav>
         </div>
       )}

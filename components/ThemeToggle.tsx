@@ -1,23 +1,37 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
 import { CiDark, CiLight } from "react-icons/ci";
+import { useTheme } from "next-themes";
 
 const ThemeToggle = () => {
-  const [isDark, setIsDark] = useState<boolean>(false);
+  const { systemTheme, theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  const currentTheme = theme === "system" ? systemTheme : theme;
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
-    <div>
-      {isDark ? (
-        <button onClick={() => setIsDark(true)}>
-          <CiLight className="text-2xl cursor-pointer" />
-        </button>
-      ) : (
-        <button onClick={() => setIsDark(false)}>
-          <CiDark className="text-2xl cursor-pointer" />
-        </button>
+    <>
+      {mounted && (
+        <>
+          {currentTheme === "dark" ? (
+            <CiLight
+              className="text-2xl cursor-pointer"
+              onClick={() => setTheme("light")}
+            />
+          ) : (
+            <CiDark
+              className="text-2xl cursor-pointer"
+              onClick={() => setTheme("dark")}
+            />
+          )}
+        </>
       )}
-    </div>
+    </>
   );
 };
 

@@ -25,7 +25,7 @@ const HomePage = () => {
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-wide mb-4">
             Hi there.
           </h1>
-          <p className="text-md sm:text-lg font-light leading-7 sm:leading-8">
+          <p className="text-md sm:text-lg font-light leading-7 sm:leading-8 dark:text-gray-400 ">
             I am a Junior Software Engineer at Cisco, transforming complex
             problems into seamless solutions with a touch of creativity.
           </p>
