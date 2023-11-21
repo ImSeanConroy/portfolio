@@ -19,7 +19,7 @@
   }
 
   .paragraph {
-    @apply sm:text-lg font-light leading-7 sm:leading-8 mb-12  dark:text-gray-400 
+    @apply sm:text-lg font-light leading-7 sm:leading-8 mb-12 dark:text-gray-400 
   }
 
   .body-section {

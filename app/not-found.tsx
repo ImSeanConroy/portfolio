@@ -1,10 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 
-import { PageMetadata } from "@/components"
+import { PageMetadata } from "@/components";
 
 export const metadata: Metadata = PageMetadata({
-  title: "Page Not Found - Sean Conroy",
+  title: "Page Not Found — Sean Conroy",
   description:
     "The page you are looking for has either been moved or does not exist. Perhaps it has been refactored out of existence.",
   keywords: [

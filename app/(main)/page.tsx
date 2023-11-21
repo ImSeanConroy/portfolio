@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
-import { Card, PageMetadata } from "@/components"
+import { Card, PageMetadata } from "@/components";
 
 export const metadata: Metadata = PageMetadata({
-  title: "Junior Software Engineer at Cisco - Sean Conroy",
+  title: "Junior Software Engineer at Cisco — Sean Conroy",
   description:
     "Transforming complex problems into seamless solutions with a touch of creativity. Explore portfolio to learm more.",
   keywords: [

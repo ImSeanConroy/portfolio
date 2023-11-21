@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { SplitImage, ProjectLinks, PageMetadata } from "@/components"
 
 export const metadata: Metadata = PageMetadata({
-  title: "Disturbance-Free Calling - Sean Conroy",
+  title: "Disturbance-Free Calling — Sean Conroy",
   description:
     "Minimising disturbances to enable productive remote work. Discover More.",
   keywords: ["Disturbance-Free Calling", "Webex", "Minimising disturbances"],
