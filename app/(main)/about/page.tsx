@@ -23,17 +23,17 @@ const AboutPages = () => {
       <img className="large-image" src="/about/main.png" alt="" />
       <div className="body-section">
         <h1 className="subtitle">
-          Transforming complex problems into seamless solutions with a touch of
-          creativity.
+          Developing and maintaining large-scale systems while building my own
+          projects.
         </h1>
         <p className="paragraph">
           Currently, I am a Junior Software Engineer at Cisco, a global
           technology leader and powerhouse. At Cisco, I have had the opportunity
           to rotated through various areas of the business, gaining a wide
-          varitry of software development experience while developing and
-          maintaining large-scale projects. However, what truly excites me is
-          the opportunity to continually grow, and Cisco has been the perfect
-          environment to nurture this passion.
+          variety of software development experience while contributing to multiple
+          projects that implemented multiple programming languages and frameworks.
+          However, what truly excites me is the opportunity to continually grow,
+          and Cisco has been the perfect environment to nurture this passion.
         </p>
         <img className="body-image" src="/about/main.png" alt="" />
         <p className="paragraph">

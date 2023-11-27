@@ -21,13 +21,14 @@ const HomePage = () => {
   return (
     <>
       <div className="w-full px-5 md:px-10 pt-10 pb-16 md:pt-36 md:pb-24">
-        <div className="w-100 md:w-3/5">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-wide mb-4">
-            Hi there.
+        <div className="w-100 lg:w-3/4">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold tracking-wide mb-5 md:leading-tight">
+            Transforming complex problems into seamless solutions with a touch
+            of creativity.
           </h1>
-          <p className="text-md sm:text-lg font-light leading-7 sm:leading-8 dark:text-gray-400 ">
-            I am a Junior Software Engineer at Cisco, transforming complex
-            problems into seamless solutions with a touch of creativity.
+          <p className="md:w-2/3 text-md sm:text-lg font-light leading-7 sm:leading-8 dark:text-gray-400 ">
+            I am a Junior Software Engineer at Cisco, developing and maintaining
+            large-scale systems while building out my own projects on the side.
           </p>
         </div>
       </div>
