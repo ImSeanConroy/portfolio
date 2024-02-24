@@ -29,8 +29,8 @@ const Card = ({
 
       <img className="w-full bg-gray-100 dark:bg-neutral-800" src={image} alt="View project details" />
 
-      <div className="pt-6 pb-10 sm:hidden">
-        <p className="text-2xl font-semibold tracking-wide pb-3">{title}</p>
+      <div className="pt-6 pb-6 sm:hidden">
+        <p className="text-2xl font-semibold tracking-wide pb-2">{title}</p>
         <p className="text-md sm:text-lg font-light leading-7 sm:leading-8 tracking-wide w-80 dark:text-gray-400">
           {description}
         </p>
