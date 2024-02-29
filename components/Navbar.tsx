@@ -34,6 +34,7 @@ const Navbar = () => {
                 <NavLink exact={false} href="/about">
                   About
                 </NavLink>
+                <a href="https://imseanconroy.substack.com/">Newsletter</a>
                 <ThemeToggle />
               </nav>
             </div>
@@ -60,6 +61,7 @@ const Navbar = () => {
             <Link href="/about" onClick={toggle} className="nav-link">
               About
             </Link>
+            <a href="https://imseanconroy.substack.com/" className="nav-link">Newsletter</a>
             <ThemeToggle />
           </nav>
         </div>
