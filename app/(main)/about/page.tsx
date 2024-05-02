@@ -20,7 +20,7 @@ export const metadata: Metadata = PageMetadata({
 const AboutPages = () => {
   return (
     <>
-      <img className="large-image" src="/about/main.png" alt="" />
+      <img className="large-image" src="/about/main.jpg" alt="" />
       <div className="body-section">
         <h1 className="subtitle">
           Developing and maintaining large-scale systems while building my own
@@ -35,7 +35,7 @@ const AboutPages = () => {
           However, what truly excites me is the opportunity to continually grow,
           and Cisco has been the perfect environment to nurture this passion.
         </p>
-        <img className="body-image" src="/about/main.png" alt="" />
+        <img className="body-image" src="/about/small.png" alt="" />
         <p className="paragraph">
           Outside my professional life, I am deeply fascinated with electronics.
           I have been immersing myself in hands-on projects involving Arduino,
