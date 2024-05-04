@@ -6,6 +6,7 @@ import PageMetadata from "./PageMetadata"
 import ProjectLinks from "./ProjectLinks"
 import SplitImage from "./SplitImage"
 import ThemeToggle from "./ThemeToggle"
+import Tags from "./Tags"
 
 export {
  Card,
@@ -15,5 +16,6 @@ export {
  PageMetadata,
  ProjectLinks,
  SplitImage,
- ThemeToggle
+ ThemeToggle,
+ Tags,
 }

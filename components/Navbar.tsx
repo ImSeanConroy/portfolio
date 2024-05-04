@@ -40,7 +40,7 @@ const Navbar = () => {
 
             <div className="block md:hidden">
               <button onClick={toggle}>
-                <CiMenuBurger className="text-4xl" />
+                <CiMenuBurger className="text-3xl" />
               </button>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Navbar = () => {
       {isVisibile && (
         <div className="fixed w-screen h-screen bg-white dark:bg-neutral-900 z-10 top-0 left-0 no-scrollbar">
           <button className="absolute top-5 right-5" onClick={toggle}>
-            <TfiClose className="text-3xl" />
+            <TfiClose className="text-2xl" />
           </button>
 
           <nav className="py-32 p-20 md:p-32 flex flex-col gap-5 text-xl tracking-wide font-light">
