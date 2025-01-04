@@ -1,13 +1,8 @@
-import { Metadata } from "next";
 import Header from "@/app/components/header";
 import About from "@/app/components/about";
 import Experience from "@/app/components/experience";
 import Education from "@/app/components/education";
 import Projects from "@/app/components/projects";
-
-export const metadata: Metadata = {
-  title: `Sean Conroy - Portfolio`,
-};
 
 export default function Home() {
   return (

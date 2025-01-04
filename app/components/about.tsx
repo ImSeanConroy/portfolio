@@ -1,4 +1,4 @@
-import Section from "@/app/components/section";
+import Section from "@/app/components/ui/section";
 
 const About = () => {
   return (

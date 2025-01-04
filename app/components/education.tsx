@@ -1,4 +1,4 @@
-import Section from "@/app/components/section";
+import Section from "@/app/components/ui/section";
 
 const Education = () => {
   return (
@@ -9,7 +9,7 @@ const Education = () => {
           Bachelor of Science with First Class Honors in Digital & Technology
           Solutions
         </h3>
-        <div className="flex flex-col sm:flex-row sm:justify-between items-center gap-3 text-base">
+        <div className="flex flex-col sm:flex-row sm:justify-between items-start sm:items-center gap-3 text-base">
           <div className="leading-relaxed antialiased text-pretty font-mono text-sm hidden sm:block">
             University of Roehampton
           </div>

@@ -1,4 +1,4 @@
-import Section from "@/app/components/section";
+import Section from "@/app/components/ui/section";
 
 const data = [
   {
@@ -23,7 +23,7 @@ const Projects = () => {
         <div className="flex flex-col gap-3 py-2" key={item.title}>
           <div className="flex items-center justify-between gap-x-2 text-base">
             <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none print:text-sm hover:underline">
-              <a href={item.link}>{item.title}</a>
+              <a href={item.link} target="_blank">{item.title}</a>
             </h3>
           </div>
           <div className="leading-relaxed antialiased text-pretty font-mono text-sm">
