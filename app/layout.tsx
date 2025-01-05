@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Sean Conroy - Portfolio",
+  title: "Junior Software Engineer at Cisco — Sean Conroy",
   description:
     "Junior Software Engineer at Cisco, Committed to designing and implementing robust, efficient, and scalable software solutions. Explore portfolio to learn more.",
   keywords: [
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     "Cisco",
   ],
   openGraph: {
-    title: "Sean Conroy - Portfolio",
+    title: "Junior Software Engineer at Cisco — Sean Conroy",
     description:
       "Junior Software Engineer at Cisco, Committed to designing and implementing robust, efficient, and scalable software solutions. Explore portfolio to learn more.",
     url: "https://www.imseanconroy.co.uk",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sean Conroy - Portfolio",
+    title: "Junior Software Engineer at Cisco — Sean Conroy",
     description:
       "Junior Software Engineer at Cisco, Committed to designing and implementing robust, efficient, and scalable software solutions. Explore portfolio to learn more.",
     images: "https://www.imseanconroy.co.uk/socials.png",
