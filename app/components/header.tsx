@@ -1,4 +1,6 @@
-import { MailIcon, Linkedin, Github } from "lucide-react";
+
+import { LuMail } from "react-icons/lu";
+import { BsLinkedin, BsSubstack, BsGithub, BsTwitterX } from "react-icons/bs";
 import Button from "@/app/components/ui/button";
 
 const Header = () => {
@@ -14,17 +16,27 @@ const Header = () => {
         <div className="flex gap-x-1 pt-1 font-mono text-sm text-foreground/80">
           <Button>
             <a href="mailto:imseanconroy@gmail.com">
-              <MailIcon className="size-4" />
+              <LuMail className="size-4" />
             </a>
           </Button>
           <Button>
             <a href="https://github.com/ImSeanConroy" target="_blank">
-              <Github className="size-4" />
+              <BsGithub className="size-4" />
             </a>
           </Button>
           <Button>
             <a href="https://www.linkedin.com/in/imseanconroy/" target="_blank">
-              <Linkedin className="size-4" />
+              <BsLinkedin className="size-4" />
+            </a>
+          </Button>
+          <Button>
+            <a href="https://imseanconroy.substack.com/" target="_blank">
+              <BsSubstack className="size-4" />
+            </a>
+          </Button>
+          <Button>
+            <a href="https://x.com/imseanconroy" target="_blank">
+              <BsTwitterX className="size-4" />
             </a>
           </Button>
         </div>
