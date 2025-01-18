@@ -1,7 +1,7 @@
-
 import { LuMail } from "react-icons/lu";
 import { BsLinkedin, BsSubstack, BsGithub, BsTwitterX } from "react-icons/bs";
 import Button from "@/app/components/ui/button";
+import Image from "next/image";
 
 const Header = () => {
   return (
@@ -43,9 +43,11 @@ const Header = () => {
       </div>
 
       <div className="size-28 relative flex h-28 w-28 shrink-0 overflow-hidden rounded-xl">
-        <img
-          className="aspect-square h-full w-full"
+        <Image
           src="https://avatars.githubusercontent.com/u/59311908?v=4"
+          fill
+          className="aspect-square h-full w-full"
+          alt="Sean Conroy's profile picture"
         />
       </div>
     </header>
