@@ -2,19 +2,55 @@ import Section from "@/app/components/ui/section";
 
 const data = [
   {
-    role: "Junior Software Engineer",
+    role: "Software Engineer",
     company: "Cisco",
     date: "August 2023 – Present",
+    keyAchivements: true,
     description:
-      "Contributed towards the development and enhancement of Terraform providers, adding support for 143+ distinct resource and data sources utilising GoLang. Also diagnosed and resolved 56+ issues related to provider functionality, performance, and compatibility. Additionaly, Designed and optimised CI/CD pipelines using Jenkins, GitLab, and GitHub Actions. One pipeline's codebase was reduced by 78% resulting in enhanced performance and maintainability.",
+      "Designed, developed, tested, and debugged software applications while collaborating with experienced engineers to deliver high-quality solutions. Authored and maintained comprehensive technical documentation for software projects, and performed unit testing and debugging to ensure optimal software performance and reliability. Key achievements include:",
+    points: [
+      [
+        "Contributed towards the development and enhancement of Terraform providers, adding support for ",
+        <strong key="terraform">143+ distinct resource and data sources</strong>,
+        " utilising GoLang."
+      ],
+      [
+        "Designed and optimised CI/CD pipelines using Jenkins, GitLab, and GitHub Actions with ",
+        <strong key="ci">pipeline&apos;s codebase being reduced by 78%</strong>,
+        "."
+      ],
+      [
+        "Diagnosed and resolved ",
+        <strong key="issues">59+ issues</strong>,
+        " related to provider functionality, performance, and compatibility."
+      ]
+    ]
   },
   {
     role: "Degree Apprentice",
     company: "Cisco",
     date: "July 2020 – August 2023",
     description:
-      "Selectively rotated through six areas of the business, including ThousandEyes, DevNet, and Webex Cloud Engineering. Developed a variety of new frontend features within the ThousandEyes platform, while also resolving customer bugs, helping improve usability and customer experience, utilising Vue.js and Typescript. Assisted with the development of a GitHub-integrated Jenkins pipeline to test updated helm charts before deployment to reduce the likelihood of broken charts impacting production services.",
-  },
+      "Worked on a variety of rotations within different areas of the company, key role include:",
+    points: [
+      [
+        <strong key="frontend">Frontend Engineer:</strong>,
+        " Developed new features within the ThousandEyes frontend platform, while resolving customer bugs helping to improve usability and customer experience, utilising Vue.js and Typescript."
+      ],
+      [
+        <strong key="backend">Backend Engineer:</strong>,
+        " Developed APIs using Flask and Node.js, implemented unit testing with Pytest and Jest, and containerised services with Docker."
+      ],
+      [
+        <strong key="cloud">Cloud Engineer:</strong>,
+        " Assisted with the development of a GitHub-integrated Jenkins pipeline to test updated helm charts before deployment."
+      ],
+      [
+        <strong key="mobile">Mobile Engineer:</strong>,
+        " Developed a proof of concept to understand the technical requirements related to sending real-time notifications with Firebase Cloud Messaging (FCM) and Apple Push Notification Service (APNS)."
+      ]
+    ]
+  }
 ];
 
 const Experience = () => {
@@ -32,6 +68,13 @@ const Experience = () => {
           <div className="leading-relaxed antialiased text-pretty font-mono text-sm">
             {item.description}
           </div>
+          {item.points.map((point, index) => (
+            <div key={index} className="leading-relaxed antialiased text-pretty font-mono text-sm">
+              {point.map((part, partIndex) => (
+                <span key={partIndex}>{part}</span>
+              ))}
+            </div>
+          ))}
         </div>
       ))}
     </Section>

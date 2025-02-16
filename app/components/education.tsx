@@ -6,12 +6,11 @@ const Education = () => {
       <h2 className="text-xl font-bold">Education & Certification</h2>
       <div className="flex flex-col gap-3 pt-2">
         <h3 className="inline-flex font-semibold leading-5 sm:leading-none">
-          Bachelor of Science with First Class Honors in Digital & Technology
-          Solutions
+        Bsc Digital & Technology Solutions (First Class), University of Roehampton 
         </h3>
         <div className="flex flex-col sm:flex-row sm:justify-between items-start sm:items-center gap-3 text-base">
           <div className="leading-relaxed antialiased text-pretty font-mono text-sm hidden sm:block">
-            University of Roehampton
+          Specialism: Software Engineering
           </div>
           <p className="text-sm leading-none text-gray-500">
             October 2020 – December 2023
@@ -32,7 +31,7 @@ const Education = () => {
             Cisco Certified DevNet Associate Certification
           </h3>
           <p className="text-sm leading-none text-gray-500">
-            In Progress: Expected January 2025
+            In Progress: Expected March 2025
           </p>
         </div>
       </div>
