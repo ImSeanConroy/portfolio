@@ -8,9 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Junior Software Engineer at Cisco — Sean Conroy",
+  title: "Software Engineer at Cisco — Sean Conroy",
   description:
-    "Junior Software Engineer at Cisco, Committed to designing and implementing robust, efficient, and scalable software solutions. Explore portfolio to learn more.",
+    "Software Engineer at Cisco, Committed to designing and implementing robust, efficient, and scalable software solutions. Explore portfolio to learn more.",
   keywords: [
     "ImSeanConroy",
     "Software Engineer",
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     "Cisco",
   ],
   openGraph: {
-    title: "Junior Software Engineer at Cisco — Sean Conroy",
+    title: "Software Engineer at Cisco — Sean Conroy",
     description:
-      "Junior Software Engineer at Cisco, Committed to designing and implementing robust, efficient, and scalable software solutions. Explore portfolio to learn more.",
+      "Software Engineer at Cisco, Committed to designing and implementing robust, efficient, and scalable software solutions. Explore portfolio to learn more.",
     url: "https://www.imseanconroy.co.uk",
     images: [
       {
@@ -34,9 +34,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Junior Software Engineer at Cisco — Sean Conroy",
+    title: "Software Engineer at Cisco — Sean Conroy",
     description:
-      "Junior Software Engineer at Cisco, Committed to designing and implementing robust, efficient, and scalable software solutions. Explore portfolio to learn more.",
+      "Software Engineer at Cisco, Committed to designing and implementing robust, efficient, and scalable software solutions. Explore portfolio to learn more.",
     images: "https://www.imseanconroy.co.uk/socials.png",
   },
 };
