@@ -1,5 +1,5 @@
 import { LuMail } from "react-icons/lu";
-import { BsLinkedin, BsSubstack, BsGithub, BsTwitterX } from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsTwitterX } from "react-icons/bs";
 import Button from "@/app/components/ui/button";
 import Image from "next/image";
 
@@ -27,11 +27,6 @@ const Header = () => {
           <Button>
             <a href="https://www.linkedin.com/in/imseanconroy/" target="_blank">
               <BsLinkedin className="size-4" />
-            </a>
-          </Button>
-          <Button>
-            <a href="https://imseanconroy.substack.com/" target="_blank">
-              <BsSubstack className="size-4" />
             </a>
           </Button>
           <Button>
