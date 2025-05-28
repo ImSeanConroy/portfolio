@@ -28,11 +28,17 @@ const Education = () => {
       <div className="flex flex-col gap-3 pt-2">
         <div className="flex flex-col sm:flex-row sm:justify-between gap-3 text-base">
           <h3 className="inline-flex font-semibold leading-none">
+            HashiCorp Certified: Terraform Associate Certification
+          </h3>
+          <p className="text-sm leading-none text-gray-500">In Progress: Expected June 2025</p>
+        </div>
+      </div>
+      <div className="flex flex-col gap-3 pt-2">
+        <div className="flex flex-col sm:flex-row sm:justify-between gap-3 text-base">
+          <h3 className="inline-flex font-semibold leading-none">
             Cisco Certified DevNet Associate Certification
           </h3>
-          <p className="text-sm leading-none text-gray-500">
-            In Progress: Expected March 2025
-          </p>
+          <p className="text-sm leading-none text-gray-500">In Progress: Expected July 2025</p>
         </div>
       </div>
     </Section>

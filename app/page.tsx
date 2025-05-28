@@ -17,9 +17,9 @@ export default function Home() {
           <Projects />
         </div>
 
-        <p className="text-pretty font-mono text-xs leading-none pt-6 text-gray-500">
+        {/* <p className="text-pretty font-mono text-xs leading-none pt-6 text-gray-500">
           * Note: An improved portfolio is currently under developemnt.
-        </p>
+        </p> */}
       </section>
     </main>
   );

@@ -5,15 +5,8 @@ const data = [
     title: "Disturbance Free Calling",
     subtitle: "Minimising Disturbance to enable Productive Remote Work:",
     description:
-      "Prototyped an ESP32-based IoT device integrated with Webex webhooks for real-time event-driven notifications. Implemented secure MQTT communication with AWS IoT Core, designed RESTful APIs with AWS API Gateway, and built serverless backend logic using AWS Lambda. Programmed in C++ to optimize performance.",
+      "Developed and prototyped an ESP32-based IoT device, implementing secure MQTT communication with AWS IoT Core for reliable data transition. Integrated Webex webhooks for real-time, event-driven notifications. Designed and deployed a serverless backend using AWS Lambda, exposed via AWS API Gateway, with all infrastructure provisioned and managed using Terraform for repeatable and scalable deployments.",
     link: "https://github.com/ImSeanConroy/disturbance-free-calling",
-  },
-  {
-    title: "Real-Time Messaging",
-    subtitle: "Ensuring Privacy with Secure Communication:",
-    description:
-      "Developed a real-time messaging application using React, Node.js, Socket.io, and PostgreSQL to enable low-latency, instant communication. Experimented with message encryption methods to ensure privacy and secure delivery.",
-    link: "https://github.com/ImSeanConroy/relay",
   },
 ];
 
