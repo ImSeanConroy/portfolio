@@ -19,7 +19,3 @@ This project is Distributed under the MIT License - see the [LICENSE](LICENSE) f
 ## Support
 
 If you are having problems, please let me know by [raising a new issue](https://github.com/ImSeanConroy/portfolio/issues/new/choose).
-
-## Acknowledgements
-
-This portfolio was inspired by the [cv](https://github.com/BartoszJarocki/cv) by Bartosz Jarocki.
