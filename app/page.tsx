@@ -63,6 +63,8 @@ export default function Home() {
           title="Disturbance Free Calling"
           description="Minimising disturbances to enable productive remote work."
           className="lg:w-2/3"
+          href="https://github.com/ImSeanConroy/disturbance-free-calling"
+          tag="Project"
         />
         <Card imageSrc="/surf.jpg" className="lg:w-1/3" />
       </div>
