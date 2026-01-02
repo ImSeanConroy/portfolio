@@ -1,5 +1,6 @@
 import React from "react";
-import Button from "./ui/button";
+
+import Button from "@/app/components/button";
 
 const SocialButton = ({
   href,
@@ -17,7 +18,7 @@ const SocialButton = ({
       rel={href.startsWith("http") ? "noopener noreferrer" : undefined}
       aria-label={ariaLabel}
     >
-      <Button className="bg-zinc-100 hover:bg-zinc-200 rounded-lg dark:bg-zinc-800 border-0 dark:text-white dark:hover:bg-zinc-700">
+      <Button className="text-white bg-zinc-900 hover:bg-zinc-700 dark:bg-zinc-800 dark:hover:bg-zinc-700 rounded-xl border-0">
         <Icon className="size-4" />
       </Button>
     </a>
