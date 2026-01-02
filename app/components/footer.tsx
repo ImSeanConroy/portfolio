@@ -8,7 +8,7 @@ const Footer = () => {
       <SocialButton href="/" icon={BsTerminalFill} ariaLabel="" />
       <div className="rounded-xl px-4 py-2 bg-zinc-900 dark:bg-zinc-800">
         <p className="text-white text-center font-semibold">
-          Hi, I&apos;m Sean. Software engineer
+          Hi, I&apos;m Sean. Software engineer at Cisco
         </p>
       </div>
     </footer>

@@ -2,26 +2,26 @@ import React from "react";
 
 const sections = [
   {
-    title: "Production-Focused Engineering",
+    title: "Production Engineering Experience",
     description:
-      "Hands-on experience building and supporting production systems at scale. I focus on writing reliable, maintainable software that fits cleanly into existing architectures while leaving systems better than I found them.",
+      "Hands-on experience building, operating, and supporting production systems at scale within enterprise environments. I focus on delivering reliable, maintainable software that integrates cleanly into existing architectures while improving system performance and long-term stability.",
   },
   {
-    title: "Broad, Real-World Experience",
+    title: "Technologies, Tools & Certifications",
     description:
-      "Experience across backend, frontend, cloud, and infrastructure through real-world projects at Cisco. From Go and Python services to Terraform, CI/CD pipelines, and frontend features, I’ve worked across the stack in cross-functional teams.",
+      "Strong experience across backend, frontend, cloud, and infrastructure. Proficient in Python, Go, TypeScript, and JavaScript, with hands-on work using Terraform, AWS, Docker, Kubernetes, CI/CD pipelines, and modern frontend frameworks. AWS Certified Cloud Practitioner and HashiCorp Terraform Associate.",
   },
   {
-    title: "Thoughtful, Impactful Delivery",
+    title: "Continuous Learning & Exploration",
     description:
-      "I care about solving the right problems, not just shipping code. I enjoy breaking down complex systems, improving reliability and developer experience, and delivering meaningful improvements quickly and clearly.",
+      "Actively expanding my skills beyond day-to-day work through continuous learning in AI and LLM integration, electronics, PCB design, and robotics. I enjoy experimenting with hardware, IoT systems, and emerging technologies to better understand how software and physical systems interact.",
   },
 ];
 
 const About = () => {
   return (
-    <div className="w-[35%] m-auto mt-24 pb-36">
-      <h2 className="text-4xl font-bold tracking-tight leading-tight mb-16">
+    <div className="w-[100%] sm:w-[80%] md:w-[60%] lg:w-[45%]  xl:w-[35%] max-w-[550px] m-auto mt-24 pb-36 p-2">
+      <h2 className="text-3xl lg:text-4xl font-bold tracking-tight leading-tight mb-16">
         Hi, I&apos;m Sean Conroy,
         <br />A software engineer from Manchester, United Kingdom.
       </h2>
