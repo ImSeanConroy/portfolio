@@ -29,7 +29,7 @@ const SOCIAL_LINKS = [
 
 const Navigation = () => {
   return (
-    <div className="flex justify-between px-3 py-3">
+    <div className="flex justify-between px-6 py-3">
       <SocialButton href="/" icon={BsTerminalFill} ariaLabel="" />
       <div className="flex gap-x-2 font-mono text-sm text-foreground/80">
         {SOCIAL_LINKS.map(({ href, icon, ariaLabel }) => (

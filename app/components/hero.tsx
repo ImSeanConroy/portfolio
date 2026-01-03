@@ -27,9 +27,9 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="text-center mb-5 w-[75%] lg:w-[70%] max-w-[1000px] m-auto pt-20 pb-32">
-      <div className="mb-6 sm:flex justify-center items-center gap-3">
-        <span className="relative mx-auto sm:mx-0 flex size-2 mb-3 sm:mb-0">
+    <div className="text-center mb-5 w-[90%] lg:w-[70%] max-w-[1100px] m-auto px-3 pt-14 sm:pt-16 md:pt-20 pb-16 sm:pb-24 md:pb-32">
+      <div className="mb-4 md:mb-6 flex justify-center items-center gap-3">
+        <span className="relative mx-0 flex size-2 mb-0">
           <span className="absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-90 animate-ping" />
           <span className="relative inline-flex h-full w-full rounded-full bg-orange-500 opacity-60" />
         </span>
@@ -37,12 +37,12 @@ const Hero = () => {
           key={index}
           aria-live="polite"
           aria-atomic="true"
-          className="text-xl font-bold tracking-tight leading-tight"
+          className="text-sm sm:text-base md:text-xl font-bold tracking-tight leading-tight"
         >
           {SUBHEADINGS[index]}
         </p>
       </div>
-      <h1 className="text-5xl lg:text-6xl font-bold tracking-tighter leading-tighter">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter leading-tighter">
         Focused on building systems that are fast, scalable, and easy to use.
       </h1>
     </div>
