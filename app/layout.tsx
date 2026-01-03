@@ -9,20 +9,24 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Software Engineer at Cisco — Sean Conroy",
+  title: "Software Engineer — Sean Conroy",
   description:
-    "Software Engineer at Cisco, Committed to designing and implementing robust, efficient, and scalable software solutions. Explore portfolio to learn more.",
+    "Software Engineer based in Manchester, UK. Focused on building systems that are fast, scalable, and easy to use.",
   keywords: [
+    "Sean Conroy",
     "ImSeanConroy",
     "Software Engineer",
-    "Portfolio",
-    "Web Development",
-    "Cisco",
+    "Full-Stack Developer",
+    "AWS",
+    "Terraform",
+    "IoT",
+    "Backend",
+    "Frontend",
   ],
   openGraph: {
-    title: "Software Engineer at Cisco — Sean Conroy",
+    title: "Software Engineer — Sean Conroy",
     description:
-      "Software Engineer at Cisco, Committed to designing and implementing robust, efficient, and scalable software solutions. Explore portfolio to learn more.",
+      "Software Engineer based in Manchester, UK. Focused on building systems that are fast, scalable, and easy to use.",
     url: "https://www.imseanconroy.co.uk",
     images: [
       {
@@ -35,9 +39,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Software Engineer at Cisco — Sean Conroy",
+    title: "Software Engineer — Sean Conroy",
     description:
-      "Software Engineer at Cisco, Committed to designing and implementing robust, efficient, and scalable software solutions. Explore portfolio to learn more.",
+      "Software Engineer based in Manchester, UK. Focused on building systems that are fast, scalable, and easy to use.",
     images: "https://www.imseanconroy.co.uk/socials.png",
   },
 };
