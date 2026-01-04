@@ -5,7 +5,7 @@ const Showcase = () => {
   const slides = [
     { imageSrc: "/surf.png", className: "w-[800px] flex-shrink-0 pl-3" },
     {
-      imageSrc: "/project-disturbance-free-calling.png",
+      imageSrc: "/project-macro-keyboard.png",
       href: "https://github.com/ImSeanConroy/disturbance-free-calling",
       className: "w-[400px] flex-shrink-0",
     },
@@ -15,12 +15,12 @@ const Showcase = () => {
       className: "w-[800px] flex-shrink-0",
     },
     {
-      imageSrc: "/project-disturbance-free-calling.png",
+      imageSrc: "/project-macro-keyboard.png",
       href: "https://github.com/ImSeanConroy/disturbance-free-calling",
       className: "w-[400px] flex-shrink-0",
     },
     {
-      imageSrc: "/project-disturbance-free-calling.png",
+      imageSrc: "/project-macro-keyboard.png",
       href: "https://github.com/ImSeanConroy/disturbance-free-calling",
       className: "w-[400px] flex-shrink-0 pr-3",
     },
