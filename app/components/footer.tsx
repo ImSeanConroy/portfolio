@@ -1,6 +1,6 @@
-import React from "react";
-import SocialButton from "./social-button";
 import { BsTerminalFill } from "react-icons/bs";
+
+import SocialButton from "@/app/components/social-button";
 
 const Footer = () => {
   return (<div className="px-3">

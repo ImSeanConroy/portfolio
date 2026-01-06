@@ -1,22 +1,4 @@
-import React from "react";
-
-const sections = [
-  {
-    title: "Production Engineering Experience",
-    description:
-      "Hands-on experience building, operating, and supporting production systems at scale within enterprise environments. I focus on delivering reliable, maintainable software that integrates cleanly into existing architectures while improving system performance and long-term stability.",
-  },
-  {
-    title: "Technologies, Tools & Certifications",
-    description:
-      "Strong experience across backend, frontend, cloud, and infrastructure. Proficient in Python, Go, TypeScript, and JavaScript, with hands-on work using Terraform, AWS, Docker, Kubernetes, CI/CD pipelines, and modern frontend frameworks. AWS Certified Cloud Practitioner and HashiCorp Terraform Associate.",
-  },
-  {
-    title: "Continuous Learning & Exploration",
-    description:
-      "Actively expanding my skills beyond day-to-day work through continuous learning in AI and LLM integration, electronics, PCB design, and robotics. I enjoy experimenting with hardware, IoT systems, and emerging technologies to better understand how software and physical systems interact.",
-  },
-];
+import { ABOUT_SECTIONS } from "@/app/constants/about";
 
 const About = () => {
   return (
@@ -26,7 +8,7 @@ const About = () => {
       </h2>
 
       <div className="flex flex-col gap-10 md:gap-12">
-        {sections.map((section, index) => (
+        {ABOUT_SECTIONS.map((section, index) => (
           <div key={index}>
             <h3 className="text-base md:text-xl font-bold tracking-tight leading-tight mb-3 md:mb-4">
               {section.title}

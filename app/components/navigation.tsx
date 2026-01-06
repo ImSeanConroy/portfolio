@@ -1,31 +1,9 @@
-import React from "react";
-import {
-  BsLinkedin,
-  BsGithub,
-  BsTerminalFill,
-  BsFillSendFill,
-} from "react-icons/bs";
+import { BsTerminalFill } from "react-icons/bs";
 
 import SocialButton from "@/app/components/social-button";
 import { ModeToggle } from "@/app/components/mode-toggle";
 
-const SOCIAL_LINKS = [
-  {
-    href: "mailto:imseanconroy@gmail.com",
-    icon: BsFillSendFill,
-    ariaLabel: "Email Sean Conroy",
-  },
-  {
-    href: "https://github.com/ImSeanConroy",
-    icon: BsGithub,
-    ariaLabel: "GitHub profile",
-  },
-  {
-    href: "https://www.linkedin.com/in/imseanconroy/",
-    icon: BsLinkedin,
-    ariaLabel: "LinkedIn profile",
-  },
-];
+import { SOCIAL_LINKS } from "@/app/constants/social-links";
 
 const Navigation = () => {
   return (
