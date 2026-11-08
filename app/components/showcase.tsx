@@ -35,6 +35,7 @@ const Showcase = () => {
               imageSrc={slide.imageSrc}
               href={slide.href}
               className={slide.className}
+              isPriority={index <= 2}
             />
           ))}
         </div>

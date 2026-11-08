@@ -5,19 +5,23 @@ const Card = ({
   imageSrc,
   href,
   className = "lg:w-1/2",
+  isPriority = false,
 }: {
   imageSrc: string;
   title?: string;
   href?: string;
   className?: string;
+  isPriority?: boolean;
 }) => {
   const content = (
     <div className="relative h-[500px] rounded-lg overflow-hidden bg-zinc-100 dark:bg-zinc-800">
       <Image
         src={imageSrc}
         alt="Showcase Image"
-        loading="lazy"
         fill
+        priority={isPriority}
+        loading={isPriority ? "eager" : "lazy"}
+        sizes="(max-width: 768px) 100vw, 800px"
         className="object-cover transition-transform duration-300"
       />
     </div>
